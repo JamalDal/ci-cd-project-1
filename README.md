@@ -171,6 +171,11 @@ git clone https://github.com/JamalDal/ci-cd-project-1.git
 
 Go to the index.html file and make some changes, then commit and push it to the GitHub repo.
 
+
+## output
+
+https://user-images.githubusercontent.com/97054844/187052201-0029f961-9f71-48e4-813d-3ae80c23ca2c.mp4
+
 ```bash
   The End. Thank you!
 ```
