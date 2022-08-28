@@ -6,7 +6,7 @@ Creating a CICD pipeline on AWS.
 
 I will be using five servers on AWS to build a complete CICD pipeline. I will name them as Developer, Jenkins, Ansible, and Webserver. I will be using a GitHub account instead of building a server for code management.
 
-![image](https://user-images.gith ubusercontent.com/97054844/187052065-d8dc323a-dcb4-48d7-a212-d5f303a9ed6f.png)
+![image](https://user-images.githubusercontent.com/97054844/187052117-db137fd9-1f02-419d-b434-caf787fad48d.png)
 
 Let’s make Jenkins server ready using cli
 To install Jenkins, we need to install java first
