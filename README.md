@@ -6,7 +6,8 @@ Creating a CICD pipeline on AWS.
 
 I will be using five servers on AWS to build a complete CICD pipeline. I will name them as Developer, Jenkins, Ansible, and Webserver. I will be using a GitHub account instead of building a server for code management.
 
-## <image>
+![image](https://user-images.gith ubusercontent.com/97054844/187052065-d8dc323a-dcb4-48d7-a212-d5f303a9ed6f.png)
+
 Let’s make Jenkins server ready using cli
 To install Jenkins, we need to install java first
 
@@ -56,7 +57,7 @@ Create a group and then attach private ip of webserver
 < private-ip >
 Similarly, we can add multiple servers’ ip here.
 
-## <web group image>
+![web](https://user-images.githubusercontent.com/97054844/187052069-45ce4216-7237-47ba-9bc2-5911014cf243.png)
 
 Now ready webserver: Install apache package and start the daemon.
 ```bash
@@ -83,7 +84,7 @@ to reflect these changes on the servers let’s restart ssh service
 ```bash
   systemctl restart sshd
 ```
-## <auth image>
+![auth](https://user-images.githubusercontent.com/97054844/187052072-3b174247-69c8-40a5-b139-25c23923aca5.png)
 
 ### SSH KEY PART
 Then generate a ssh key and share it 
@@ -98,7 +99,7 @@ Now, let’s try something more and create a playbook at ansible
   mkdir sourcecode
   cd  /sourcecode >> vi playbook.yml
 ```
-## <playbook code>
+![playbook](https://user-images.githubusercontent.com/97054844/187052079-feda16db-eb2f-4153-88b9-7d7a5c731fb6.png)
 
 Now, let’s go to GitHub and create a repo.
 
